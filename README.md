@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm menna</h1>
-<h3 align="left">CS student from Egypt</h3>
+<h3 align="left"> a passionate Backend Developer and a fresh graduate FCIS Mansoura from Egypt</h3>
 <img src="https://github.com/mennaabdelelhady/mennaabdelelhady/blob/main/elota.png" align="center" width="50%"/>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
