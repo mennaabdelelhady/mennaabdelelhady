@@ -46,74 +46,31 @@
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="60" height="60"/>
   </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" alt="Git" width="60" height="60"/>
+  </a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="60" height="60"/>
+  </a>
+  <a href="https://www.postman.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="60" height="60"/>
+  </a>
+  <a href="https://www.apachefriends.org/index.html" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original-wordmark.svg" alt="XAMPP" width="60" height="60"/>
+  </a>
+  <a href="https://laravel.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="Laravel" width="60" height="60"/>
+  </a>
+  <a href="https://www.php.net/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="60" height="60"/>
+  </a>
 </p>
 
 ---
 
 <h2 align="left">Snake Game</h2>
 <p align="center">
-  <canvas id="snakeGame" width="400" height="400" style="border:1px solid #000;"></canvas>
-  <script>
-    const canvas = document.getElementById('snakeGame');
-    const ctx = canvas.getContext('2d');
-    const box = 20;
-    let snake = [{ x: 9 * box, y: 10 * box }];
-    let food = {
-      x: Math.floor(Math.random() * 19 + 1) * box,
-      y: Math.floor(Math.random() * 19 + 1) * box
-    };
-    let direction;
-
-    document.addEventListener('keydown', event => {
-      if (event.key === 'ArrowUp' && direction !== 'DOWN') direction = 'UP';
-      else if (event.key === 'ArrowDown' && direction !== 'UP') direction = 'DOWN';
-      else if (event.key === 'ArrowLeft' && direction !== 'RIGHT') direction = 'LEFT';
-      else if (event.key === 'ArrowRight' && direction !== 'LEFT') direction = 'RIGHT';
-    });
-
-    function drawGame() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = 'red';
-      ctx.fillRect(food.x, food.y, box, box);
-      for (let i = 0; i < snake.length; i++) {
-        ctx.fillStyle = i === 0 ? 'green' : 'lightgreen';
-        ctx.fillRect(snake[i].x, snake[i].y, box, box);
-      }
-
-      let snakeX = snake[0].x;
-      let snakeY = snake[0].y;
-
-      if (direction === 'UP') snakeY -= box;
-      if (direction === 'DOWN') snakeY += box;
-      if (direction === 'LEFT') snakeX -= box;
-      if (direction === 'RIGHT') snakeX += box;
-
-      if (snakeX === food.x && snakeY === food.y) {
-        food = {
-          x: Math.floor(Math.random() * 19 + 1) * box,
-          y: Math.floor(Math.random() * 19 + 1) * box
-        };
-      } else {
-        snake.pop();
-      }
-
-      const newHead = { x: snakeX, y: snakeY };
-      if (
-        snakeX < 0 ||
-        snakeY < 0 ||
-        snakeX >= canvas.width ||
-        snakeY >= canvas.height ||
-        snake.some(segment => segment.x === newHead.x && segment.y === newHead.y)
-      ) {
-        clearInterval(game);
-        alert('Game Over');
-      }
-
-      snake.unshift(newHead);
-    }
-
-    const game = setInterval(drawGame, 100);
-  </script>
+  <strong>Note:</strong> This interactive game cannot run directly in this README. Visit <a href="https://your-hosted-link.com">this link</a> to play the game!
 </p>
 
 ---
