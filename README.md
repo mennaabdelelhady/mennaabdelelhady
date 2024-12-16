@@ -1,5 +1,5 @@
 ### Hi, I'm Menna!
-<img src="https://github.com/mennaabdelelhady/mennaabdelelhady/blob/main/elota.png" align="right" width="50%"/>
+<img src="https://github.com/mennaabdelelhady/mennaabdelelhady/blob/main/elota.png" align="right" width="30%"/>
 -Software Engineer </br>
 -Studied Computer Science Mansoura University, Egypt </br>
 -Currently learning more and more about Back-End </br>
