@@ -2,8 +2,7 @@
 <img src="https://github.com/mennaabdelelhady/mennaabdelelhady/blob/main/elota.png" align="right" width="30%"/>
 -Software Engineer </br>
 -Studied Computer Science Mansoura University, Egypt </br>
--Currently learning more and more about Back-End </br>
-
+-Currently learning more and more about Back-End </br></br>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mennaabdelelhady&show_icons=true&theme=radical)
 
