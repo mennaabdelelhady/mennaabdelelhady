@@ -1,4 +1,6 @@
 ### Hi, I'm Menna!
+![Profile Views](https://komarev.com/ghpvc/?username=mennaabdelelhady&color=green)
+
 <img src="https://github.com/mennaabdelelhady/mennaabdelelhady/blob/main/elota.png" align="right" width="30%"/>
 -Software Engineer </br>
 -Studied Computer Science Mansoura University, Egypt </br>
